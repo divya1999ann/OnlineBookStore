@@ -1,0 +1,52 @@
+<div class='card'>
+    <form (ngSubmit)="AddProduct()" class='bg-pic'>
+<div class='card-header'>
+ ADD BOOK DETAILS
+</div>
+<div class='card-body'>            
+  <div class='table-responsive'>
+    <table class='table'>       
+    
+      <tbody>  
+          <tr>
+              <td> <label>BOOK Id</label></td>
+              <td><input type="text" name="p_id" [(ngModel)]="productItem.productId"/></td>                  
+            </tr>   
+            <tr>
+                <td><label>BOOK TITLE</label></td>
+                <td><input type="text" name="p_name" [(ngModel)]="productItem.productName"/></td>                  
+              </tr>  
+              <tr>
+                <td><label>BOOK CODE</label></td>
+                <td><input type="text" name="p_code" [(ngModel)]="productItem.productCode"/></td>                  
+              </tr>  
+              <tr>
+                <td><label>BOOK PUBLISHED DATE</label></td>
+                <td><input type="text" name="p_date" [(ngModel)]="productItem.releaseDate"/></td>                  
+              </tr>  
+              <tr>
+                <td><label>BOOK AUTHOR NAME</label></td>
+                <td><input type="text" name="p_desc" [(ngModel)]="productItem.description"/></td>                  
+              </tr>  
+              <tr>
+                <td> <label>BOOK PRICE</label></td>
+                <td><input type="text" name="p_price" [(ngModel)]="productItem.price"/></td>                  
+              </tr>  
+              <tr>
+                <td> <label>BOOK RATING</label></td>
+                <td><input type="text" name="p_rating" [(ngModel)]="productItem.starRating"/></td>                  
+              </tr>  
+              <tr>
+                <td><label>BOOK imageUrl</label></td>
+                <td><input type="text" name="p_image" [(ngModel)]="productItem.imageUrl"/></td>                  
+              </tr>  
+              <tr>
+                <td></td>
+                <td><input type="submit" value="Submit" /></td>                  
+              </tr>             
+      </tbody>
+    </table>
+  </div>
+</div>
+</form>
+</div>

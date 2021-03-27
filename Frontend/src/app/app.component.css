@@ -1,0 +1,21 @@
+
+#mark{
+    color: rgb(194, 88, 17);
+    font: 1em Cursive;
+}
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h1{
+    color:maroon;
+}
+#bg {
+    /* The image used */
+    background-image: url("../assets/images/book1.jpg");
+    /* Full height */
+    /*height: 100%;*/
+    /* Center and scale the image nicely */
+    color: #fff;
+   /* background-size: 100% ;  */
+    background-size: cover; 
+  }
